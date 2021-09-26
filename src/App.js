@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+
 import './App.css';
 import Banner from './component/Banner/Banner';
 import Content from './component/Content/Content';

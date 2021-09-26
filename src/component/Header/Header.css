@@ -24,6 +24,8 @@ nav a{
     border-radius: 10px;
 }
 nav a:hover{
-    background-color: #8e94f2;
-    color: #293241;
+    /* background-color: #8e94f2; */
+    background-color: #355070;
+    /* color: #293241; */
+    color: cornsilk;
 }

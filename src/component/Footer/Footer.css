@@ -1,6 +1,7 @@
 .main-footer{
     text-align: center;
-    background-color: #d7e3fc;
+    /* background-color: #d7e3fc; */
+    background-color: #abc4ff;
     line-height: 100px;
     border-radius: 10px;
 }

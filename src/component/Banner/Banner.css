@@ -1,10 +1,17 @@
 .banner img{
-    height: 500px;
+    height: 300px;
+    width: 100%;
 }
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:cornsilk;
+    background-color: #abc4ff;
+    /* background-color: #b6ccfe; */
+    padding: 10px;
+    margin-top: 20px;
+    width: 70%;
+    height: 150px;
+    margin-left: 200px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+ 
   }

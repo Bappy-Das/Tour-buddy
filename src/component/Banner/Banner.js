@@ -6,8 +6,9 @@ const Banner = () => {
     return (
         <div className="banner">
             <img src={banner} alt="Snow" height="600"></img>
-            <div class="centered">
-                <h1>Bangladesh is a land of River, vally of Green Carpet and Sanctuary Mangrove forest</h1>
+            <div className="centered">
+                <h1>Bangladesh is a land of River, vally of Green Carpet.</h1>
+                <h3>Travel  Bangladesh With : 10000 Tk</h3>
             </div>
         </div>
     );

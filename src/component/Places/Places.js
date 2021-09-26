@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLuggageCart } from '@fortawesome/free-solid-svg-icons'
+import { faLuggageCart, } from '@fortawesome/free-solid-svg-icons'
 import './Places.css'
 
 const Places = (props) => {
@@ -18,7 +18,8 @@ const Places = (props) => {
                     <div className="attract-palce">
                         <h5>Location : {location}</h5>
                         <h4>Travel Spot:</h4>
-                        {attractions.map(spot => <p> {spot}</p>)}
+                        {attractions.map((spot, i) => <p key={i}> {spot}</p>)}
+
                     </div>
                     <div>
                         <h5>Duration : {Duration}</h5>
