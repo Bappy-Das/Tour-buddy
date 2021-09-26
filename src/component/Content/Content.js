@@ -23,6 +23,7 @@ const Content = () => {
 
     return (
         <div className="main-content">
+
             <div className="travel-info">
                 {
                     tourSpot.map(place => <Places
