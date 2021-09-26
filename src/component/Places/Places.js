@@ -19,7 +19,9 @@ const Places = (props) => {
                     <div className="attract-palce">
                         <h5>Location : {location}</h5>
                         <h4>Travel Spot:</h4>
-                        {attractions.map((spot, i) => <ol key={i}> &#9728; {spot}</ol>)}
+                        {
+                            attractions.map((spot, i) => <ol key={i}> &#9728; {spot}</ol>)
+                        }
 
                     </div>
                     <div>
