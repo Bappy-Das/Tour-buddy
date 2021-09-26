@@ -4,19 +4,22 @@ import Places from '../Places/Places';
 import './Content.css'
 
 const Content = () => {
-    const [tourSpot, setTourSpot] = useState([])
-    const [budget, setBudget] = useState([])
+    const [tourSpot, setTourSpot] = useState([]);
+    const [budget, setBudget] = useState([]);
+    const [placeName, setPlacceName] = useState([])
     useEffect(() => {
         fetch('./data.JSON')
             .then(res => res.json())
             .then(data => setTourSpot(data))
     }, []);
 
-    const handleCLick = (place) => {
+    const handleCLick = (place,) => {
         const newCost = [...budget, place]
         setBudget(newCost);
-    }
 
+        const newPlace = [...placeName, place.name]
+        setPlacceName(newPlace)
+    }
 
     return (
         <div className="main-content">
@@ -31,7 +34,10 @@ const Content = () => {
                 }
             </div>
             <div className="travel-cost">
-                <Budget budget={budget}></Budget>
+                <Budget
+                    budget={budget}
+                    placeName={placeName}
+                ></Budget>
             </div>
         </div>
     );
