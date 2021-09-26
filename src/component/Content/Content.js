@@ -3,6 +3,8 @@ import Budget from '../Budget/Budget';
 import Places from '../Places/Places';
 import './Content.css'
 
+// Parent component
+
 const Content = () => {
     const [tourSpot, setTourSpot] = useState([]);
     const [budget, setBudget] = useState([]);

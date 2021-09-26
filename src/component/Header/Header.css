@@ -1,9 +1,7 @@
 .header{
-    /* text-align: center; */
     display: flex;
     align-items: center;
     justify-content:space-between;
-    /* margin: 20px; */
     padding: 10px;
     background-color: #c1d3fe;
 }
@@ -24,8 +22,6 @@ nav a{
     border-radius: 10px;
 }
 nav a:hover{
-    /* background-color: #8e94f2; */
     background-color: #355070;
-    /* color: #293241; */
     color: cornsilk;
 }

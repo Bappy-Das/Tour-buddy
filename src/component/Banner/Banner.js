@@ -2,6 +2,8 @@ import React from 'react';
 import './Banner.css';
 import banner from '../../images/slider.jpg'
 
+
+// Banner image and banner text
 const Banner = () => {
     return (
         <div className="banner">

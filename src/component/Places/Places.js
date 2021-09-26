@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLuggageCart, } from '@fortawesome/free-solid-svg-icons'
 import './Places.css'
 
+// Show card
 const Places = (props) => {
     // console.log(props)
     const { name, Duration, attractions, location, image, cost } = props.place;
