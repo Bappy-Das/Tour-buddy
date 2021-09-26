@@ -1,32 +1,37 @@
 import React, { useEffect, useState } from 'react';
+import Budget from '../Budget/Budget';
 import Places from '../Places/Places';
 import './Content.css'
 
 const Content = () => {
-    const [places, setPlace] = useState([])
+    const [tourSpot, setTourSpot] = useState([])
+    const [budget, setBudget] = useState([])
     useEffect(() => {
         fetch('./data.JSON')
             .then(res => res.json())
-            .then(data => setPlace(data))
-    }, [])
+            .then(data => setTourSpot(data))
+    }, []);
+
+    const handleCLick = (place) => {
+        const newCost = [...budget, place]
+        setBudget(newCost);
+    }
+
+
     return (
         <div className="main-content">
-            {/* <div>
-                <a href="/">hello link</a>
-            </div> */}
             <div className="travel-info">
                 {
-                    places.map(place => <Places
+                    tourSpot.map(place => <Places
                         key={place.id}
                         place={place}
+                        handleCLick={handleCLick}
 
                     ></Places>)
                 }
             </div>
             <div className="travel-cost">
-                <h1>Travel Place: </h1>
-                <h3>Travel Cost: </h3>
-
+                <Budget budget={budget}></Budget>
             </div>
         </div>
     );

@@ -2,12 +2,8 @@ import React from 'react';
 import './Places.css'
 
 const Places = (props) => {
-    // console.log(props.place)
+    // console.log(props)
     const { name, Duration, image, cost } = props.place;
-    // let spotPlace = {};
-    // for (const spot of attractions) {
-    //     spotPlace = spot;
-    // }
 
 
     return (
@@ -28,13 +24,13 @@ const Places = (props) => {
 
                     </div>
                     <div className="btn-class">
-                        <button className="common-btn">added</button>
+                        <button onClick={() => props.handleCLick(props.place)} className="common-btn">added</button>
                         <button className="common-btn">go</button>
                     </div>
                 </div>
 
             </div>
-        </div>
+        </div >
     );
 };
 
