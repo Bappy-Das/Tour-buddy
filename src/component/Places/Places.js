@@ -18,12 +18,12 @@ const Places = (props) => {
                     <div className="attract-palce">
                         <h5>Location : {location}</h5>
                         <h4>Travel Spot:</h4>
-                        {attractions.map((spot, i) => <p key={i}> {spot}</p>)}
+                        {attractions.map((spot, i) => <ol key={i}> * {spot}</ol>)}
 
                     </div>
                     <div>
                         <h5>Duration : {Duration}</h5>
-                        <h5>Cost : {cost} tk Per</h5>
+                        <h5>Cost : {cost} Tk Per</h5>
                     </div>
 
                 </div>

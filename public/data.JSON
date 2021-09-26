@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Sundarbans",
-        "Duration": "2 nights / 3 days",
+        "Duration": "2 Nights / 3 Days",
         "location": "Sundarbans, Bagerhat & Mongla",
         "attractions": [
             "Harbaria Eco-Tourism Center",
@@ -11,12 +11,12 @@
             "Fishing Village"
         ],
         "image": "https://media-eng.dhakatribune.com/uploads/2020/05/copy-of-1-sundarbans-syed-zakir-hossain-whatsapp-image-2020-05-20-at-7-59-51-pm-1589988023439.jpeg",
-        "cost": 599
+        "cost": 8000
     },
     {
         "id": 4,
         "name": "Sajek Valley ",
-        "Duration": "3 day / 4 Night",
+        "Duration": "3 Day / 4 Night",
         "location": " Baghaichhari Upazila, Rangamati",
         "attractions": [
             "Ruilui Para",
@@ -25,12 +25,12 @@
             "Horticulture Heritage Park"
         ],
         "image": "https://tourrom.com/wp-content/uploads/2019/01/Discover-sajek-valley-1024x701.jpg",
-        "cost": 399
+        "cost": 10000
     },
     {
         "id": 5,
         "name": "Cox’s Bazar",
-        "Duration": "3 day / 4 Night",
+        "Duration": "3 Day / 4 Night",
         "location": "Cox’s Bazar",
         "attractions": [
             "Inani Beach",
@@ -39,7 +39,7 @@
             "Laboni Beach"
         ],
         "image": "https://dhakato.com/wp-content/uploads/2020/02/dhaka_to_coxs_bazar.jpg",
-        "cost": 899
+        "cost": 9000
     },
     {
         "id": 6,
@@ -53,12 +53,12 @@
             "Chimbuk Hill"
         ],
         "image": "https://bdwallpapergallery.files.wordpress.com/2012/05/nilgiri-resort-bandarban-bangladesh05.jpg?w=848g",
-        "cost": 599
+        "cost": 8500
     },
     {
         "id": 2,
         "name": "Sreemangal",
-        "Duration": "2 nights / 3 days",
+        "Duration": "2 Nights / 3 Days",
         "location": "Sreemangal",
         "attractions": [
             "Tea gardens",
@@ -67,12 +67,12 @@
             "7 Layer Tea"
         ],
         "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/bd/75.jpg",
-        "cost": 499
+        "cost": 5000
     },
     {
         "id": 3,
         "name": "Kantaji Temple",
-        "Duration": "Full Day Tour",
+        "Duration": "Full Day",
         "location": "Dinajpur",
         "attractions": [
             "kantaji Temple",
@@ -81,7 +81,7 @@
             " Radha-Krishna Idol"
         ],
         "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/55/96/11/kantajew-temple-kantajew.jpg?w=1200&h=-1&s=1",
-        "cost": 399
+        "cost": 2000
     },
     {
         "id": 7,
@@ -93,12 +93,12 @@
             "Ship Junk Recycle"
         ],
         "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2012/5/5/1336216686374/Bangladesh---Ship-Breakin-011.jpg?width=700&quality=85&auto=format&fit=max&s=1a264d7044a69dc832192cec057c3e90",
-        "cost": 899
+        "cost": 3000
     },
     {
         "id": 8,
         "name": "Saint Martin",
-        "Duration": "Full Day",
+        "Duration": "3 Days / 2 Night",
         "location": "Saint Martin, Bay of Bengal",
         "attractions": [
             "Chera Dip",
@@ -117,6 +117,6 @@
             "Buddhist Temple "
         ],
         "image": "https://cdn.thecrazytourist.com/wp-content/uploads/2017/03/Somapura-Mahavihara.jpg",
-        "cost": 599
+        "cost": 2000
     }
 ]
