@@ -1,8 +1,10 @@
 import React from 'react';
-// import { useState } from 'react/cjs/react.development';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 
 
 const Budget = (props) => {
+    const icon = <FontAwesomeIcon icon={faMapMarkerAlt} />;
 
     const { budget } = props;
     const { placeName } = props;
@@ -18,7 +20,7 @@ const Budget = (props) => {
             <h3>Selected Place:</h3>
             <hr />
             {
-                placeName.map(name => <p key={name}> {name}</p>)
+                placeName.map(name => <p key={name}>{icon} {name}</p>)
             }
         </div>
     );

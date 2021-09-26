@@ -17,17 +17,23 @@
 }
 .common-btn{
     background-color:#abc4ff;
+    padding: 20px;
     color: #111;
-    width: 100px;
-    height: 35px;
+    width: 200px;
+    height: 50px;
     border-style: none;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 10px;
     margin-bottom: 20px;
     font-weight: bold;
 }
 .common-btn:hover{
-    background-color: #a9def9;
+    /* background-color: #a9def9; */
+    background-color: #355070;
     border: 1px solid #619b8a;
+    color: cornsilk;
     
+}
+.font-icon{
+    color: #abc4ff;
 }

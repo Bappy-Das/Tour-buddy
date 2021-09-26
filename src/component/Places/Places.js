@@ -18,7 +18,7 @@ const Places = (props) => {
                     <div className="attract-palce">
                         <h5>Location : {location}</h5>
                         <h4>Travel Spot:</h4>
-                        {attractions.map((spot, i) => <ol key={i}> * {spot}</ol>)}
+                        {attractions.map((spot, i) => <ol key={i}> &#9728; {spot}</ol>)}
 
                     </div>
                     <div>
@@ -28,7 +28,7 @@ const Places = (props) => {
 
                 </div>
                 <div className="btn-class">
-                    <button onClick={() => props.handleCLick(props.place)} className="common-btn"><span>{icon}</span> Book Now</button>
+                    <button onClick={() => props.handleCLick(props.place)} className="common-btn"><span>{icon}</span>  Book Now</button>
                 </div>
 
             </div>
