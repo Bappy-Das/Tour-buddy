@@ -12,9 +12,9 @@ const Budget = (props) => {
         totalCost = totalCost + place.cost;
     }
     return (
-        <div>
-            <h1>Travel Place: {budget.length} </h1>
-            <h3>Estimated Cost: {totalCost}</h3>
+        <div className="estimated-cost">
+            <h2>Travel Place: {budget.length} </h2>
+            <h3>Estimated Cost: {totalCost} tk</h3>
             <h3>Selected Place:</h3>
             <hr />
             {

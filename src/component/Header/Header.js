@@ -9,6 +9,14 @@ const Header = () => {
             <div>
                 <img src={logo} alt="" />
             </div>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/">Tour Packages</a>
+                <a href="/">Bangladesh Blog</a>
+                <a href="/">Services</a>
+                <a href="/">Contact Us</a>
+
+            </nav>
         </div>
     );
 };

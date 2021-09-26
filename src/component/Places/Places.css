@@ -2,6 +2,7 @@
     height: 180px;
     width: 100%;
 }
+
 .place-info{
     margin: 10px;
     padding: 10px;
@@ -9,14 +10,10 @@
     background-color: #E1EFDF;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.attract-palce{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
+
 .btn-class{
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
+
+    text-align: center;
 }
 .common-btn{
     background-color:#abc4ff;

@@ -3,6 +3,7 @@
         "id": 1,
         "name": "Sundarbans",
         "Duration": "2 nights / 3 days",
+        "location": "Sundarbans, Bagerhat & Mongla",
         "attractions": [
             "Harbaria Eco-Tourism Center",
             "Kotka Wildlife Sanctuary",
@@ -13,34 +14,10 @@
         "cost": 599
     },
     {
-        "id": 2,
-        "name": "Sreemangal",
-        "Duration": "2 nights / 3 days",
-        "attractions": [
-            "Tea gardens",
-            "Lawachara rain forest",
-            "Madhabpur dam",
-            "7 Layer Tea"
-        ],
-        "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/bd/75.jpg",
-        "cost": 499
-    },
-    {
-        "id": 3,
-        "name": "Kantaji Temple",
-        "Duration": "Full Day Tour",
-        "attractions": [
-            "kantaji Temple",
-            "METI School",
-            "Santal Village"
-        ],
-        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/55/96/11/kantajew-temple-kantajew.jpg?w=1200&h=-1&s=1",
-        "cost": 399
-    },
-    {
         "id": 4,
         "name": "Sajek Valley ",
         "Duration": "3 day / 4 Night",
+        "location": " Baghaichhari Upazila, Rangamati",
         "attractions": [
             "Ruilui Para",
             "Hamari Para",
@@ -54,12 +31,11 @@
         "id": 5,
         "name": "Cox’s Bazar",
         "Duration": "3 day / 4 Night",
+        "location": "Cox’s Bazar",
         "attractions": [
             "Inani Beach",
             "Marine Drive",
-            "Himchori",
             "Radiant Fish World",
-            "Sonadia Island",
             "Laboni Beach"
         ],
         "image": "https://dhakato.com/wp-content/uploads/2020/02/dhaka_to_coxs_bazar.jpg",
@@ -69,22 +45,49 @@
         "id": 6,
         "name": "Bandarban",
         "Duration": "4 Days / 5 Night",
+        "location": "Bandarban",
         "attractions": [
             "Nilgiri Mountains",
             "Nilachal",
             "Nafa-khum",
-            "Buddha Gold Temple",
-            "Amiakhum",
-            "Chimbuk Hill",
-            "Keokradong"
+            "Chimbuk Hill"
         ],
         "image": "https://bdwallpapergallery.files.wordpress.com/2012/05/nilgiri-resort-bandarban-bangladesh05.jpg?w=848g",
         "cost": 599
     },
     {
+        "id": 2,
+        "name": "Sreemangal",
+        "Duration": "2 nights / 3 days",
+        "location": "Sreemangal",
+        "attractions": [
+            "Tea gardens",
+            "Lawachara rain forest",
+            "Madhabpur dam",
+            "7 Layer Tea"
+        ],
+        "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/bd/75.jpg",
+        "cost": 499
+    },
+    {
+        "id": 3,
+        "name": "Kantaji Temple",
+        "Duration": "Full Day Tour",
+        "location": "Dinajpur",
+        "attractions": [
+            "kantaji Temple",
+            "METI School",
+            "Santal Village",
+            " Radha-Krishna Idol"
+        ],
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/55/96/11/kantajew-temple-kantajew.jpg?w=1200&h=-1&s=1",
+        "cost": 399
+    },
+    {
         "id": 7,
         "name": "Chittagong Ship Breaking Yard",
         "Duration": "Full Day",
+        "location": "Faujdarhat, Sitakunda Upazila",
         "attractions": [
             "Ship Breaking Yard",
             "Ship Junk Recycle"
@@ -96,6 +99,7 @@
         "id": 8,
         "name": "Saint Martin",
         "Duration": "Full Day",
+        "location": "Saint Martin, Bay of Bengal",
         "attractions": [
             "Chera Dip",
             "Sunrise "
@@ -107,6 +111,7 @@
         "id": 9,
         "name": "Paharpur",
         "Duration": "Full Day ",
+        "location": " Paharpur, Badalgachhi, Naogaon",
         "attractions": [
             "Somapura Mahavihara",
             "Buddhist Temple "
