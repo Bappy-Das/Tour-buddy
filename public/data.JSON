@@ -1,32 +1,32 @@
 [
     {
+        "id": 1,
         "name": "Sundarbans",
         "Duration": "2 nights / 3 days",
         "attractions": [
             "Harbaria Eco-Tourism Center",
             "Kotka Wildlife Sanctuary",
             "Kochikhali Wildlife Sanctuary",
-            "Fishing Village",
-            "Karamjal Crocodile Breeding Centre"
+            "Fishing Village"
         ],
         "image": "https://media-eng.dhakatribune.com/uploads/2020/05/copy-of-1-sundarbans-syed-zakir-hossain-whatsapp-image-2020-05-20-at-7-59-51-pm-1589988023439.jpeg",
         "cost": 599
     },
     {
+        "id": 2,
         "name": "Sreemangal",
         "Duration": "2 nights / 3 days",
         "attractions": [
             "Tea gardens",
             "Lawachara rain forest",
             "Madhabpur dam",
-            "Baikka Beel Wetland",
-            "7 Layer Tea",
-            "Manipuri - Khasia Community & Weaving Village"
+            "7 Layer Tea"
         ],
         "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/bd/75.jpg",
         "cost": 499
     },
     {
+        "id": 3,
         "name": "Kantaji Temple",
         "Duration": "Full Day Tour",
         "attractions": [
@@ -38,19 +38,20 @@
         "cost": 399
     },
     {
+        "id": 4,
         "name": "Sajek",
         "Duration": "3 day / 4 Night",
         "attractions": [
             "Ruilui Para",
             "Hamari Para",
             "Konglak Para",
-            "Horticulture Heritage Park",
-            "Vantawng Falls"
+            "Horticulture Heritage Park"
         ],
         "image": "https://tourrom.com/wp-content/uploads/2019/01/Discover-sajek-valley-1024x701.jpg",
         "cost": 399
     },
     {
+        "id": 5,
         "name": "Cox’s Bazar",
         "Duration": "3 day / 4 Night",
         "attractions": [
@@ -65,6 +66,23 @@
         "cost": 899
     },
     {
+        "id": 6,
+        "name": "Bandarban",
+        "Duration": "4 Days / 5 Night",
+        "attractions": [
+            "Nilgiri Mountains",
+            "Nilachal",
+            "Nafa-khum",
+            "Buddha Gold Temple",
+            "Amiakhum",
+            "Chimbuk Hill",
+            "Keokradong"
+        ],
+        "image": "https://bdwallpapergallery.files.wordpress.com/2012/05/nilgiri-resort-bandarban-bangladesh05.jpg?w=848g",
+        "cost": 599
+    },
+    {
+        "id": 7,
         "name": "Chittagong Ship Breaking Yard",
         "Duration": "Full Day",
         "attractions": [
@@ -75,6 +93,7 @@
         "cost": 899
     },
     {
+        "id": 8,
         "name": "Saint Martin",
         "Duration": "Full Day",
         "attractions": [
@@ -85,6 +104,7 @@
         "cost": 1099
     },
     {
+        "id": 9,
         "name": "Paharpur",
         "Duration": "Full Day ",
         "attractions": [
@@ -92,23 +112,6 @@
             "Buddhist Temple "
         ],
         "image": "https://cdn.thecrazytourist.com/wp-content/uploads/2017/03/Somapura-Mahavihara.jpg",
-        "cost": 599
-    },
-    {
-        "name": "Bandarban",
-        "Duration": "4 Days / 5 Night",
-        "attractions": [
-            "Nilgiri Mountains",
-            "Nilachal",
-            "Nafa-khum",
-            "Sangu River",
-            "Buddha Gold Temple",
-            "Amiakhum",
-            "Chimbuk Hill",
-            "Keokradong",
-            "Tinap Saitar"
-        ],
-        "image": "https://bdwallpapergallery.files.wordpress.com/2012/05/nilgiri-resort-bandarban-bangladesh05.jpg?w=848g",
         "cost": 599
     }
 ]

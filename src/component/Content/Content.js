@@ -11,15 +11,23 @@ const Content = () => {
     }, [])
     return (
         <div className="main-content">
+            {/* <div>
+                <a href="/">hello link</a>
+            </div> */}
+            <div className="travel-info">
+                {
+                    places.map(place => <Places
+                        key={place.id}
+                        place={place}
 
-            {
-                places.map(place => <Places
+                    ></Places>)
+                }
+            </div>
+            <div className="travel-cost">
+                <h1>Travel Place: </h1>
+                <h3>Travel Cost: </h3>
 
-                    place={place}
-
-                ></Places>)
-            }
-
+            </div>
         </div>
     );
 };

@@ -1,0 +1,9 @@
+.main-footer{
+    text-align: center;
+    background-color: #d7e3fc;
+    line-height: 100px;
+    border-radius: 10px;
+}
+.main-footer p{
+    margin: 0;
+}
